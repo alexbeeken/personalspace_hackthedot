@@ -22,15 +22,26 @@
   /* Opera < 12.1 */
   animation: fadein 2s; }
 
+.together {
+  font-style: bold !important; }
+
 .splash-btn {
   margin-top: 250px; }
 
 #page2 {
   margin-top: 5%;
-  margin-bottom: 20%; }
+  margin-bottom: 20%;
+  background-color: #d3d3d3; }
 
 .banner {
   width: 70%;
+  display: block;
+  margin: auto auto 2% auto;
+  height: 20rem;
+  background: transparent;
+  cursor: pointer; }
+
+.banner2 {
   display: block;
   margin: auto auto 2% auto;
   height: 20rem;
@@ -67,4 +78,8 @@
 #cultstuff li {
   font-size: 35; }
 
-/*# sourceMappingURL=app.css.map */
+#page4 {
+  padding: 50px;
+  background-color: #000;
+  color: red;
+  height: 1000px; }
