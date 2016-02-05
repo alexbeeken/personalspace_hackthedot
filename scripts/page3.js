@@ -4,6 +4,12 @@ $(function() {
     $('.good').delay(500).fadeIn(200).fadeOut(200).fadeIn(200).fadeOut(200).fadeIn(200).fadeOut(200).fadeIn(200).fadeOut(200).fadeIn(200).fadeOut(1000);
   }); 
   $('#alone').on("click", function() {
-    $('#alone').fadeOut(200).fadeIn(200).fadeOut(200).fadeIn(200).fadeOut(200).fadeIn(200);
-  }
+    $('#alone2').fadeIn(200).fadeOut(200).fadeIn(200).fadeOut(200).fadeIn(200).fadeOut(200).fadeIn(200).fadeOut(1200);
+  });
+
+  $("#submit").on("click", function(e) {
+    e.preventDefault();
+    $('form').fadeOut(1000);
+    $('.cat').delay(1000).fadeIn(1000);
+  });
 });
