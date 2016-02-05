@@ -1,9 +1,42 @@
-#splash {
-  background-image: url("img/man.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  height: 700px; }
+/*
+Syntax error: Invalid CSS after "}": expected "}", was ""
+        on line 22 of css/app.scss
 
-.logo {
-  text-align: center; }
+17: 
+18: .sad-question {
+19:   text-align: center;
+20:   font-size: 2rem;
+21:   margin-bottom: 1rem;
+22: }
+
+Backtrace:
+css/app.scss:22
+/Users/jennifer/.gem/ruby/2.2.2/gems/sass-3.2.19/lib/sass/scss/parser.rb:1147:in `expected'
+/Users/jennifer/.gem/ruby/2.2.2/gems/sass-3.2.19/lib/sass/scss/parser.rb:1085:in `expected'
+/Users/jennifer/.gem/ruby/2.2.2/gems/sass-3.2.19/lib/sass/scss/parser.rb:1080:in `tok!'
+/Users/jennifer/.gem/ruby/2.2.2/gems/sass-3.2.19/lib/sass/scss/parser.rb:536:in `block'
+/Users/jennifer/.gem/ruby/2.2.2/gems/sass-3.2.19/lib/sass/scss/parser.rb:529:in `ruleset'
+/Users/jennifer/.gem/ruby/2.2.2/gems/sass-3.2.19/lib/sass/scss/parser.rb:553:in `block_child'
+/Users/jennifer/.gem/ruby/2.2.2/gems/sass-3.2.19/lib/sass/scss/parser.rb:546:in `block_contents'
+/Users/jennifer/.gem/ruby/2.2.2/gems/sass-3.2.19/lib/sass/scss/parser.rb:82:in `stylesheet'
+/Users/jennifer/.gem/ruby/2.2.2/gems/sass-3.2.19/lib/sass/scss/parser.rb:27:in `parse'
+/Users/jennifer/.gem/ruby/2.2.2/gems/sass-3.2.19/lib/sass/engine.rb:342:in `_to_tree'
+/Users/jennifer/.gem/ruby/2.2.2/gems/sass-3.2.19/lib/sass/engine.rb:315:in `_render'
+/Users/jennifer/.gem/ruby/2.2.2/gems/sass-3.2.19/lib/sass/engine.rb:262:in `render'
+/Users/jennifer/.gem/ruby/2.2.2/gems/sass-3.2.19/lib/sass/plugin/compiler.rb:362:in `update_stylesheet'
+/Users/jennifer/.gem/ruby/2.2.2/gems/sass-3.2.19/lib/sass/plugin/compiler.rb:203:in `block in update_stylesheets'
+/Users/jennifer/.gem/ruby/2.2.2/gems/sass-3.2.19/lib/sass/plugin/compiler.rb:201:in `each'
+/Users/jennifer/.gem/ruby/2.2.2/gems/sass-3.2.19/lib/sass/plugin/compiler.rb:201:in `update_stylesheets'
+/Users/jennifer/.gem/ruby/2.2.2/gems/sass-3.2.19/lib/sass/plugin/compiler.rb:283:in `block in watch'
+/Users/jennifer/.gem/ruby/2.2.2/gems/sass-3.2.19/vendor/listen/lib/listen/multi_listener.rb:108:in `call'
+/Users/jennifer/.gem/ruby/2.2.2/gems/sass-3.2.19/vendor/listen/lib/listen/multi_listener.rb:108:in `on_change'
+/Users/jennifer/.gem/ruby/2.2.2/gems/sass-3.2.19/vendor/listen/lib/listen/multi_listener.rb:117:in `block in initialize_adapter'
+/Users/jennifer/.gem/ruby/2.2.2/gems/sass-3.2.19/vendor/listen/lib/listen/adapter.rb:198:in `call'
+/Users/jennifer/.gem/ruby/2.2.2/gems/sass-3.2.19/vendor/listen/lib/listen/adapter.rb:198:in `report_changes'
+/Users/jennifer/.gem/ruby/2.2.2/gems/sass-3.2.19/vendor/listen/lib/listen/adapter.rb:210:in `poll_changed_dirs'
+/Users/jennifer/.gem/ruby/2.2.2/gems/sass-3.2.19/vendor/listen/lib/listen/adapters/darwin.rb:38:in `block in start'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: Invalid CSS after \"}\": expected \"}\", was \"\"\A         on line 22 of css/app.scss\A \A 17: \A 18: .sad-question {\A 19:   text-align: center;\A 20:   font-size: 2rem;\A 21:   margin-bottom: 1rem;\A 22: }"; }
