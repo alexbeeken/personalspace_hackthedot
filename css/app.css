@@ -1,3 +1,9 @@
+#splash {
+  background-image: url("img/man.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 700px; }
 
-
-/*# sourceMappingURL=app.css.map */
+.logo {
+  text-align: center; }
