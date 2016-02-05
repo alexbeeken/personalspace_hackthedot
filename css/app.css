@@ -1,9 +1,21 @@
-#page3 {
-  margin-top: 15%; }
+#page2 {
+  margin-top: 15%;
+  margin-bottom: 20%; }
 
 .sad-question {
   text-align: center;
   font-size: 2rem;
   margin-bottom: 1rem; }
+
+.yes-button {
+  padding: 1rem 4rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  border: transparent;
+  background: #235496;
+  color: #fff;
+  transition: all 0.3s; }
+  .yes-button:hover {
+    background: rgba(35, 84, 150, 0.8); }
 
 /*# sourceMappingURL=app.css.map */
