@@ -22,6 +22,9 @@
   /* Opera < 12.1 */
   animation: fadein 2s; }
 
+.together {
+  font-style: bold !important; }
+
 .splash-btn {
   margin-top: 250px; }
 
@@ -58,5 +61,3 @@
 
 #cultstuff li {
   font-size: 35; }
-
-/*# sourceMappingURL=app.css.map */
