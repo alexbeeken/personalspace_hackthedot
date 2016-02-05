@@ -38,6 +38,7 @@ html, body {
 #page2 {
   margin-top:5%;
   margin-bottom: 20%;
+  background-color: #d3d3d3;
 }
 
 .banner {
@@ -48,6 +49,15 @@ html, body {
   background:transparent;
   cursor: pointer;
 }
+
+.banner2 {
+  display: block;
+  margin: auto auto 2% auto;
+  height: 20rem;
+  background:transparent;
+  cursor: pointer;
+}
+
 
 .sad-question {
   text-align: center;
@@ -77,4 +87,11 @@ html, body {
 
 #cultstuff li {
   font-size: 35;
+}
+
+#page4 {
+	padding: 50px;
+	background-color: #000;
+	color: red;
+	height: 1000px;
 }
