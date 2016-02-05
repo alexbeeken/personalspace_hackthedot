@@ -1,3 +1,13 @@
+#splash {
+  background-image: url("img/lonely.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 700px; }
+
+.logo {
+  text-align: center; }
+
 #page2 {
   margin-top: 15%;
   margin-bottom: 20%; }
@@ -17,5 +27,8 @@
   transition: all 0.3s; }
   .yes-button:hover {
     background: rgba(35, 84, 150, 0.8); }
+
+#cultstuff li {
+  font-size: 35; }
 
 /*# sourceMappingURL=app.css.map */
