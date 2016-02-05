@@ -6,16 +6,23 @@
   height: 700px; }
 
 .logo {
-  text-align: center; }
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 400px; }
+
+.motto {
+  font-style: italic; }
 
 #page2 {
-  margin-top: 15%;
+  margin-top: 65%;
   margin-bottom: 20%; }
 
 .sad-question {
   text-align: center;
   font-size: 2rem;
-  margin-bottom: 1rem; }
+  text-transform: uppercase;
+  font-weight: 700;
+  margin: 1rem 2rem; }
 
 .yes-button {
   padding: 1rem 4rem;
@@ -24,11 +31,10 @@
   border: transparent;
   background: #235496;
   color: #fff;
+  box-shadow: 2px 2px 15px #333;
   transition: all 0.3s; }
   .yes-button:hover {
     background: rgba(35, 84, 150, 0.8); }
 
 #cultstuff li {
   font-size: 35; }
-
-/*# sourceMappingURL=app.css.map */

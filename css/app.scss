@@ -13,17 +13,25 @@ html, body {
 
 .logo {
 	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 400px;
+}
+
+.motto {
+	font-style: italic;
 }
 
 #page2 {
-  margin-top:15%;
+  margin-top:65%;
   margin-bottom: 20%;
 }
 
 .sad-question {
   text-align: center;
   font-size: 2rem;
-  margin-bottom: 1rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin: 1rem 2rem;
 }
 
 .yes-button {
@@ -33,6 +41,7 @@ html, body {
   border: transparent;
   background: rgba(35, 84, 150, 1);
   color: #fff;
+  box-shadow: 2px 2px 15px #333;
   transition: all 0.3s;
   &:hover {
     background:rgba(35, 84, 150, 0.8);
