@@ -57,7 +57,12 @@
     background: rgba(35, 84, 150, 0.8); }
 
 .good {
-  display: none; }
+  display: none;
+  font-size: 5rem;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 700; }
 
 #cultstuff li {
   font-size: 35; }
