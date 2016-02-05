@@ -41,12 +41,12 @@ html, body {
 }
 
 .banner {
-  width: 80%;
+  width: 70%;
   display: block;
-  margin: auto;
-  height: 10rem;
-  background:rgba(35, 84, 150, 1);
-  margin-bottom: 5%;
+  margin: auto auto 2% auto;
+  height: 20rem;
+  background:transparent;
+  cursor: pointer;
 }
 
 .sad-question {
@@ -69,6 +69,10 @@ html, body {
   &:hover {
     background:rgba(35, 84, 150, 0.8);
   }
+}
+
+.good {
+  display: none;
 }
 
 #cultstuff li {
