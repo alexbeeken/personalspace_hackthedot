@@ -6,7 +6,12 @@
   height: 700px; }
 
 .logo {
-  text-align: center; }
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 400px; }
+
+.motto {
+  font-style: italic; }
 
 #page2 {
   margin-top: 65%;
@@ -33,5 +38,3 @@
 
 #cultstuff li {
   font-size: 35; }
-
-/*# sourceMappingURL=app.css.map */
