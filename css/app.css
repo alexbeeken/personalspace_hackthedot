@@ -14,8 +14,16 @@
   font-style: italic; }
 
 #page2 {
-  margin-top: 65%;
+  margin-top: 5%;
   margin-bottom: 20%; }
+
+.banner {
+  width: 80%;
+  display: block;
+  margin: auto;
+  height: 10rem;
+  background: #235496;
+  margin-bottom: 5%; }
 
 .sad-question {
   text-align: center;
@@ -38,3 +46,5 @@
 
 #cultstuff li {
   font-size: 35; }
+
+/*# sourceMappingURL=app.css.map */

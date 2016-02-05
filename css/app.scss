@@ -1,3 +1,4 @@
+
 html, body {
 
 }
@@ -22,8 +23,17 @@ html, body {
 }
 
 #page2 {
-  margin-top:65%;
+  margin-top:5%;
   margin-bottom: 20%;
+}
+
+.banner {
+  width: 80%;
+  display: block;
+  margin: auto;
+  height: 10rem;
+  background:rgba(35, 84, 150, 1);
+  margin-bottom: 5%;
 }
 
 .sad-question {
