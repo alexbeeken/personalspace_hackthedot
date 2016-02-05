@@ -37,8 +37,8 @@ html, body {
 
 #page2 {
   margin-top:5%;
-  margin-bottom: 20%;
   background-color: #d3d3d3;
+  padding-bottom: 100px;
 }
 
 .banner {
@@ -88,10 +88,39 @@ html, body {
   margin-left: auto;
   margin-right: auto;
   font-weight: 700;
+  color: #ff5e42;
 }
 
 #cultstuff li {
   font-size: 35;
+}
+
+#page3 {
+  display: block;
+  margin: -2% auto;
+  width: 100%;
+  text-align: center;
+  background-image:
+    url("https://pixabay.com/static/uploads/photo/2015/04/23/10/48/children-735868_960_720.jpg");
+  background-size:     cover;
+  background-repeat:   no-repeat;
+  background-position: center center;
+  height: 700px;
+  font-weight: 900;
+  #page3content {
+    padding-top: 5%;
+    background: rgba(0,0,0,0.5);
+    color: #fff;
+    height: 100%;
+  }
+
+}
+
+#alone {
+  cursor: pointer;
+  &:hover {
+    color: yellow;
+  }
 }
 
 #page4 {
